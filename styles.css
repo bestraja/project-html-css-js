@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+   width:100%;
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: block;
+    justify-content: center;
+    
+
+}
+header
+{
+ width:100%;
+height: 15%;
+ border: 1px solid #eef2f2;
+ background-color: #000000;
+ position: fixed;
+ display: flex;
+ z-index: 999;
+ justify-content: space-between;
+}
+.log 
+{width:9%;
+padding-left:0px;
+cursor: pointer;;
+}
+nav a
+{  
+text-decoration:none;
+color:rgb(250, 250, 250);
+
+}
+.navigation li
+{  
+    display:inline-block;
+    padding-right:40px;
+    font-size:1.2em;
+    font-weight:500px;
+    padding-right:30px;
+    padding-left:30px;
+    padding-top:25px;
+    
+}
+.navigation a:hover
+{color:rgb(187, 25, 25);
+font-size:large;
+text-decoration: none;
+border-radius:300px;
+border-width:50px;
+padding: 8px;
+background-color:rgba(255, 255, 251, 0.966);
+}
+section{ 
+    width:100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main
+{
+width:100%;
+padding-top:20%;
+background-image: url(./image/bg.png);
+
+}
+
+.div1
+{   width:99%;
+padding: 2%;
+display:flex;
+flex-direction:column;
+justify-content: space-around;
+    
+}
+.par1{
+    width:100%;
+    color:rgb(246, 246, 246);
+    text-align:center;
+    font: size 1.5em;
+    font-weight: 900;
+    word-spacing:15px;
+    text-indent: 50px;
+    
+    }
+   
+    .lien
+    {
+    border-radius: 40px;
+    background-color:rgba(232, 245, 51, 0.678);
+    color:rgb(211, 39, 39) ;
+    margin-left:600px;
+    padding:20px;
+    }
+    a :hover
+    {
+        background-color: rgb(147, 226, 240);
+        cursor: pointer;
+    }
+.main2
+{
+width: 100%;
+background-color: #dad7d796;
+display: flex;
+flex-direction:row;
+}
+.mobilefor
+{
+ width:100%;  
+ padding-left: 2%;
+ display: flex;
+ flex-direction: column; 
+}
+
+.mobile li
+{  width:31%;
+    text-decoration:none;
+    display:inline-flex;
+
+
+}
+.foot
+{
+    width:99%;
+    margin:0% auto;
+    background-color: #000000;
+    color: aliceblue;
+    padding-top:60px;
+    padding-bottom: 50px;
+    padding-left:45px;
+    box-sizing: inherit;
+    border: 2px solid #eef2f2;
+     display:inline-flex;
+     
+}
+.p1
+{
+width:20%;
+padding-left:90px;
+}
+.ecri
+{
+    cursor: pointer;
+    font-size: small;
+    opacity:0.33 ;   
+}
